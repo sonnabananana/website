@@ -32,7 +32,8 @@ def main_page():
     else:
         return render_template('home_page.html')
 
-# Yurr
+#YRUE
+
 
 @app.route('/signup', methods = ['POST', 'GET'] )
 def signup():
